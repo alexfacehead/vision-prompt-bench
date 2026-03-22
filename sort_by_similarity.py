@@ -1,1 +1,0 @@
-# To Be Implemented for Integrity of Comparisons of Images

@@ -1,5 +1,5 @@
-from .evaluation_metrics import (
-    normalize_metric,
-    evaluate_image_improvement,
-    compare_images
+from .statistical_analysis import (
+    analyze_metric,
+    run_statistical_analysis,
+    format_report,
 )

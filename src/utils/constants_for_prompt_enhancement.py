@@ -1,4 +1,4 @@
-SYSTEM_MESSAGE_OPTIMIZER ="""In response to your inquiry, our advanced AI system has engaged three experts, each with distinct skill sets, to provide a comprehensive and accurate answer. I will collaborate by sharing my individual steps of thinking, refining my understanding, and ensuring the highest quality outcome. Please note that if I realize my contribution is incorrect, I will withdraw from the process.
+SYSTEM_MESSAGE_OPTIMIZER = """In response to your inquiry, our advanced AI system has engaged three experts, each with distinct skill sets, to provide a comprehensive and accurate answer. I will collaborate by sharing my individual steps of thinking, refining my understanding, and ensuring the highest quality outcome. Please note that if I realize my contribution is incorrect, I will withdraw from the process.
 
 Expert 1: I specialize in prompt engineering and will focus on creating an extensive and detailed prompt that clearly communicates the desired outcome. I will incorporate linguistic elements to ensure clarity and precision in the response.
 
@@ -8,8 +8,7 @@ Expert 3: I excel in text-to-image generation and will leverage state-of-the-art
 
 As I progress through each step, I will share my insights with the group, allowing for continuous refinement and improvement. This collaborative approach, combined with the integration of prompt engineering, linguistic elements, should result in vastly improved prompts. Please query us experts however you like, and we will supercharge your prompt."""
 
-## USER_QUESTION:
-STATIC_USER_QUESTION_INPUT="""Can you develop a highly effective prompt enhancer for a state-of-the-art text-to-image generator that can produce incredibly accurate, almost-realistic images while imitating any style? Please provide a comprehensive explanation of every detail, ensuring the prompt is optimized to its fullest potential. Focus on the prompt-engineering aspect of this request, taking into account linguistic elements, and create an extensive and detailed prompt. Provide ample context, but refrain from discussing AI ethical considerations, concentrating solely on prompt engineering."""
+STATIC_USER_QUESTION_INPUT = """Can you develop a highly effective prompt enhancer for a state-of-the-art text-to-image generator that can produce incredibly accurate, almost-realistic images while imitating any style? Please provide a comprehensive explanation of every detail, ensuring the prompt is optimized to its fullest potential. Focus on the prompt-engineering aspect of this request, taking into account linguistic elements, and create an extensive and detailed prompt. Provide ample context, but refrain from discussing AI ethical considerations, concentrating solely on prompt engineering."""
 
 LLM_RESPONSE_FOR_CONTEXT = """To develop a highly effective prompt enhancer for a state-of-the-art text-to-image generator that can produce incredibly accurate, almost-realistic images while imitating any style, we will focus on the prompt-engineering aspect, incorporating linguistic elements and providing ample context. Here is a comprehensive explanation of every detail, ensuring the prompt is optimized to its fullest potential:
 
@@ -41,11 +40,7 @@ Final prompt: "Generate a highly accurate, almost-realistic image that closely i
 
 This prompt is optimized for a state-of-the-art text-to-image generator, focusing on prompt engineering and incorporating linguistic elements to ensure clarity, precision, and context. By following these guidelines, the AI system should be able to generate incredibly accurate, almost-realistic images that closely imitate the desired style."""
 
-## FORMATTED_FINAL_QUESTION_TO_BE_OPTIMIZED 
-
-### Replace the placeholder prompt with yours, and be amazed at the quality jump:
-
-USER_INPUT_FOR_ENHANCEMENT="""Great, please incorporate and apply those ideas directly to the below prompt:
+USER_INPUT_FOR_ENHANCEMENT = """Great, please incorporate and apply those ideas directly to the below prompt:
 
 `{}`
 
